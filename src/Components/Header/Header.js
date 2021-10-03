@@ -1,11 +1,18 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+  const styles = {
+    textDecoration: "none",
+    color: "white",
+    marginRight: '20px'
+  }
+  
     return (
         <>
-            <Navbar bg="light" expand="lg">
+<Navbar bg="dark" variant="dark" expand="lg">
   <Container fluid>
     <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -15,11 +22,19 @@ const Header = () => {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link href="#action1">Home</Nav.Link>
-        <Nav.Link href="#action2">Link</Nav.Link>
-        <Nav.Link href="#" disabled>
-          Link
-        </Nav.Link>
+        <NavLink style={styles} activeStyle={{
+         fontWeight: "bold",
+         color: "skyBlue"}}
+         to="/home">Home</NavLink>
+        <NavLink style={styles} activeStyle={{
+         fontWeight: "bold",
+         color: "skyBlue"}} to="/about">About</NavLink>
+        <NavLink style={styles} activeStyle={{
+         fontWeight: "bold",
+         color: "skyBlue"}} to="/services">Services</NavLink>
+        <NavLink style={styles} activeStyle={{
+         fontWeight: "bold",
+         color: "skyBlue"}} to="/success">Success-Story</NavLink>
       </Nav>
       <Form className="d-flex">
         <FormControl
