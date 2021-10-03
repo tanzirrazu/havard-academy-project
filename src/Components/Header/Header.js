@@ -12,9 +12,9 @@ const Header = () => {
   
     return (
         <>
-<Navbar bg="dark" variant="dark" expand="lg">
+<Navbar bg="dark"  variant="light" expand="lg">
   <Container fluid>
-    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+    <Navbar.Brand href="#" className="text-white">Havard Academy</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav
@@ -24,27 +24,22 @@ const Header = () => {
       >
         <NavLink style={styles} activeStyle={{
          fontWeight: "bold",
-         color: "skyBlue"}}
+         color: "red"}}
          to="/home">Home</NavLink>
         <NavLink style={styles} activeStyle={{
          fontWeight: "bold",
-         color: "skyBlue"}} to="/about">About</NavLink>
+         color: "red"}} to="/about">About</NavLink>
         <NavLink style={styles} activeStyle={{
          fontWeight: "bold",
-         color: "skyBlue"}} to="/services">Services</NavLink>
+         color: "red"}} to="/services">Services</NavLink>
         <NavLink style={styles} activeStyle={{
          fontWeight: "bold",
-         color: "skyBlue"}} to="/success">Success-Story</NavLink>
+         color: "red"}} to="/success">Success-Story</NavLink>
       </Nav>
-      <Form className="d-flex">
-        <FormControl
-          type="search"
-          placeholder="Search"
-          className="me-2"
-          aria-label="Search"
-        />
-        <Button variant="outline-success">Search</Button>
-      </Form>
+      <div>
+        <button className="btn bg-danger text-white me-md-3">Log in</button>
+        <button className="btn bg-secondary text-white">Get started</button>
+      </div>
     </Navbar.Collapse>
   </Container>
 </Navbar>
