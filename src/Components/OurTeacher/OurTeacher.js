@@ -9,11 +9,13 @@ import teacher6 from '../../Img/teacher_6.jpg'
 
 const OurTeacher = () => {
     return (
-        <div style={{minHeight: "100vh", marginTop: "70px"}}>
-        <h1 className="display-1 fw-bold text-center">Our <span className="text-muted">teacher</span></h1>
-<Row xs={2} md={2} lg={3} className="g-4 mt-3">
+<div style={{minHeight: "100vh", marginTop: "70px"}}>
+    <h1 className="display-1 fw-bold text-center">Our 
+    <span className="text-muted">teacher</span>
+    </h1>
+<Row xs={2} md={2} lg={3} className="g-4 mt-3 mb-3">
 <Col>
-      <Card className="h-80">
+      <Card className="h-80 shadow">
         <Card.Img style={{height: "400px", width:"426px"}} className="img-fluid" variant="top" src={teacher1} />
         <Card.Body>
           <Card.Title>Hemili Jhon</Card.Title>
@@ -24,7 +26,7 @@ const OurTeacher = () => {
       </Card>
     </Col>
     <Col>
-      <Card className="h-80">
+      <Card className="h-80 shadow">
         <Card.Img style={{height: "400px", width:"426px"}} className="img-fluid" variant="top" src={teacher2} />
         <Card.Body>
           <Card.Title>Julia Ein</Card.Title>
@@ -35,7 +37,7 @@ const OurTeacher = () => {
       </Card>
     </Col>
     <Col>
-      <Card className="h-80">
+      <Card className="h-80 shadow">
         <Card.Img style={{height: "400px", width:"426px"}} className="img-fluid" variant="top" src={teacher3} />
         <Card.Body>
           <Card.Title>Mr. Jhon</Card.Title>
@@ -46,7 +48,7 @@ const OurTeacher = () => {
       </Card>
     </Col>
     <Col>
-      <Card className="h-80">
+      <Card className="h-80 shadow">
         <Card.Img style={{height: "400px", width:"426px"}} className="img-fluid" variant="top" src={teacher4} />
         <Card.Body>
           <Card.Title>Ketrina Kein</Card.Title>
@@ -57,7 +59,7 @@ const OurTeacher = () => {
       </Card>
     </Col>
     <Col>
-      <Card className="h-80">
+      <Card className="h-80 shadow">
         <Card.Img style={{height: "400px", width:"426px"}} className="img-fluid" variant="top" src={teacher5} />
         <Card.Body>
           <Card.Title>Wiliam Smith</Card.Title>
@@ -68,7 +70,7 @@ const OurTeacher = () => {
       </Card>
     </Col>
     <Col>
-      <Card className="h-80">
+      <Card className="h-80 shadow">
         <Card.Img style={{height: "400px", width:"426px"}} className="img-fluid" variant="top" src={teacher6} />
         <Card.Body>
           <Card.Title>Jhon Dep</Card.Title>
@@ -79,7 +81,7 @@ const OurTeacher = () => {
       </Card>
     </Col>
 </Row>
-        </div>
+</div>
     );
 };
 

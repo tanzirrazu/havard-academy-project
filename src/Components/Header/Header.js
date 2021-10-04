@@ -9,7 +9,6 @@ const Header = () => {
     color: "white",
     marginRight: '20px'
   }
-  
     return (
         <>
 <Navbar bg="dark"  variant="light" fixed="top" expand="lg">

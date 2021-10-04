@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Img from '../../Img/home-img.png'
 
-
-
 const Home = () => {
     const [datas, setDatas] = useState([]);
     useEffect(()=>{
