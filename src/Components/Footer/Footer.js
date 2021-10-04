@@ -5,7 +5,7 @@ const Footer = () => {
         < >
           <footer className=" bg-dark py-3 px-3">
             <div className="row">
-                <div className="col-md-4 col-lg-4 col-sm-4 text-white">
+                <div className="col-md-4 col-lg-4 col-sm-12 text-white">
                     <h6 className="fw-bold">Useful links</h6>
                     <div>
                         <li> <a className="text-decoration-none text-white" href="#Learn">Learn More</a> </li>
@@ -14,11 +14,11 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="col-md-4 col-lg-4 col-sm-4 text-white mt-5">
-                   <p className="text-center">Copyright &#169; by tanzir-razu</p>
+                <div className="col-md-4 col-lg-4 col-sm-12 text-white mt-5">
+                   <p className="text-lg-center">Copyright &#169; by tanzir-razu</p>
                 </div>
 
-                <div className="col-md-4 col-lg-4 col-sm-4 text-white text-end">
+                <div className="col-md-4 col-lg-4 col-sm-12 text-white text-lg-end">
                     <h6 className="fw-bold">Contact</h6>
                     <div className="d-block">
                         <span>Email: tanzirrazu@gmail.com</span>
@@ -33,5 +33,4 @@ const Footer = () => {
         </>
     );
 };
-{/* <p ></ */}
 export default Footer;

@@ -14,7 +14,7 @@ const Header = () => {
         <>
 <Navbar bg="dark"  variant="light" expand="lg">
   <Container fluid>
-    <Navbar.Brand href="#" className="text-white">Havard Academy</Navbar.Brand>
+    <Navbar.Brand className="text-white">Havard Academy</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
       <Nav

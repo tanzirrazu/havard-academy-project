@@ -1,11 +1,11 @@
 import React from 'react';
-import { Card, CardGroup, Col, Row } from 'react-bootstrap';
+import { Card, Col, Row } from 'react-bootstrap';
 import Img from '../../Img/2.jpg'
 const About = () => {
     return (
 <div>
 <h1 className="display-1 fw-bold text-center"><span className="text-muted">About</span> Us</h1>
-<Row xs={1} md={2} className="g-4" style={{minHeight: "100vh"}}className="mt-5">
+<Row xs={1} md={2} className="g-4" style={{minHeight: "100vh"}}>
     <Col>
       <Card>
         <Card.Img className="img-fluid" variant="top" src={Img} />
