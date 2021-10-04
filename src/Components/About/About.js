@@ -3,6 +3,8 @@ import { Card, CardGroup, Col, Row } from 'react-bootstrap';
 import Img from '../../Img/2.jpg'
 const About = () => {
     return (
+<div>
+<h1 className="display-1 fw-bold text-center"><span className="text-muted">About</span> Us</h1>
 <Row xs={1} md={2} className="g-4" style={{minHeight: "100vh"}}className="mt-5">
     <Col>
       <Card>
@@ -28,22 +30,7 @@ const About = () => {
       </Card>
     </Col>
 </Row>
-
-        // <div className="p-3">
-        //  <div className="col-md-6">
-        //  <div>
-        //   <h1>Who We are</h1>
-        //     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia voluptatum iusto qui? Praesentium possimus, ex quos ipsam saepe odit magnam unde deleniti nisi itaque voluptates est dolorem nihil maxime esse natus distinctio tempora omnis perferendis dolor. Optio numquam voluptate iure dolorem assumenda. Rem, pariatur consequuntur suscipit provident veniam quibusdam voluptatibus.</p>
-        //   </div>
-        //   <div>
-        //   <h1>What we do</h1>
-        //     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia voluptatum iusto qui? Praesentium possimus, ex quos ipsam saepe odit magnam unde deleniti nisi itaque voluptates est dolorem nihil maxime esse natus distinctio tempora omnis perferendis dolor. Optio numquam voluptate iure dolorem assumenda. Rem, pariatur consequuntur suscipit provident veniam quibusdam voluptatibus.</p>
-        //   </div>
-        //  </div>
-        //  <div className="col-md-6">
-        //     <img className="img-fluid" src={Img} alt="" />
-        //  </div>
-        // </div>
+</div>
     );
 };
 

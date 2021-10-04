@@ -29,7 +29,7 @@ const OurTeacher = () => {
         <Card.Body>
           <Card.Title>Julia Ein</Card.Title>
           <Card.Text>
-           <p>Master of Science</p>
+           <p>Master of English</p>
           </Card.Text>
         </Card.Body>
       </Card>

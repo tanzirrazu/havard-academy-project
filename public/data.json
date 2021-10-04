@@ -1,0 +1,51 @@
+[
+    {   "id":1,
+        "name":"Master of Math",
+        "teacher":"Jhon Dep",
+        "img":"./img/math.jpg",
+        "duration":"6 month",
+        "enrol":500,
+        "deccription":"The Educational Services sector comprises establishments that provide instruction and training in a wide variety of subjects. This instruction and training is provided by specialized establishments, such as schools, colleges, universities, and training centers."
+    },
+    {   "id":2,
+        "name":"Master of Buisness Administration",
+        "teacher":"Wiliam Smith",
+        "img":"./img/bussiness.jpg",
+        "duration":"6 month",
+        "enrol":400,
+        "deccription":"The Educational Services sector comprises establishments that provide instruction and training in a wide variety of subjects. This instruction and training is provided by specialized establishments, such as schools, colleges, universities, and training centers."
+    },
+    {   "id":3,
+        "name":"Master of Arts",
+        "teacher":"Ketrina kein",
+        "img":"./img/arts.jpg",
+        "duration":"6 month",
+        "enrol":300,
+        "deccription":"The Educational Services sector comprises establishments that provide instruction and training in a wide variety of subjects. This instruction and training is provided by specialized establishments, such as schools, colleges, universities, and training centers."
+    },
+    {   "id":4,
+        "name":"Master of Biology",
+        "teacher":"Mr. Jhon",
+        "img":"./img/biology.jpg",
+        "duration":"6 month",
+        "enrol":450,
+        "deccription":"The Educational Services sector comprises establishments that provide instruction and training in a wide variety of subjects. This instruction and training is provided by specialized establishments, such as schools, colleges, universities, and training centers."
+    },
+    {   "id":5,
+        "name":"Master of English",
+        "teacher":"Julia Ein",
+        "img":"./img/english.jpg",
+        "duration":"6 month",
+        "enrol":450,
+        "deccription":"The Educational Services sector comprises establishments that provide instruction and training in a wide variety of subjects. This instruction and training is provided by specialized establishments, such as schools, colleges, universities, and training centers."
+    },
+    {   "id":6,
+        "name":"Master of Computer Science",
+        "teacher":"Hemili Jhon",
+        "img":"./img/computer.jpg",
+        "duration":"6 month",
+        "enrol":450,
+        "deccription":"The Educational Services sector comprises establishments that provide instruction and training in a wide variety of subjects. This instruction and training is provided by specialized establishments, such as schools, colleges, universities, and training centers."
+    }
+
+]
