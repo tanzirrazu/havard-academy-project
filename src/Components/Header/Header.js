@@ -12,7 +12,7 @@ const Header = () => {
   
     return (
         <>
-<Navbar bg="dark"  variant="light" expand="lg">
+<Navbar bg="dark"  variant="light" fixed="top" expand="lg">
   <Container fluid>
     <Navbar.Brand className="text-white">Havard Academy</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />

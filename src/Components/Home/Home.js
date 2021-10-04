@@ -12,7 +12,7 @@ const Home = () => {
         .then(data => setDatas(data));
     },[])
     return (
-    <div style={{minHeight: "100vh"}}>
+    <div style={{minHeight: "100vh", marginTop: "80px"}} >
         <div className="row my-5">
             <div className="col-md-3">
                 <h1 className="fw-bold text-dark display-4"> <span className="text-danger">Choose</span> <br /> Your Future <br /> Career</h1>
@@ -34,6 +34,9 @@ const Home = () => {
                 <p>Better grades then avearage</p>
            </div>
         </div>
+    </div>
+    <div>
+        <h1 className="text-center display-4 fw-bold">Our Best <span className="text-muted">Services</span> </h1>
     </div>
     <div className="row mt-2 row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
          {

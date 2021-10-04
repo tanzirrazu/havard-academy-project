@@ -3,9 +3,9 @@ import { Card, Col, Row } from 'react-bootstrap';
 import Img from '../../Img/2.jpg'
 const About = () => {
     return (
-<div>
+<div style={{marginTop: "70px"}}>
 <h1 className="display-1 fw-bold text-center"><span className="text-muted">About</span> Us</h1>
-<Row xs={1} md={2} className="g-4" style={{minHeight: "100vh"}}>
+<Row xs={1} md={2} className="g-4 mt-3" style={{minHeight: "100vh"}}>
     <Col>
       <Card>
         <Card.Img className="img-fluid" variant="top" src={Img} />

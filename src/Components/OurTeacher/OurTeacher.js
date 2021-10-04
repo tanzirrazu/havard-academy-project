@@ -9,9 +9,9 @@ import teacher6 from '../../Img/teacher_6.jpg'
 
 const OurTeacher = () => {
     return (
-        <div style={{minHeight: "100vh"}}>
+        <div style={{minHeight: "100vh", marginTop: "70px"}}>
         <h1 className="display-1 fw-bold text-center">Our <span className="text-muted">teacher</span></h1>
-<Row xs={2} md={2} lg={3} className="g-4">
+<Row xs={2} md={2} lg={3} className="g-4 mt-3">
 <Col>
       <Card className="h-80">
         <Card.Img style={{height: "400px", width:"426px"}} className="img-fluid" variant="top" src={teacher1} />

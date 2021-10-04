@@ -9,7 +9,7 @@ const Services = () => {
         .then(data => setData(data))
     },[])
     return (
-        <div style={{minHeight: "100vh"}}>
+        <div style={{minHeight: "100vh", marginTop: "70px"}}>
             <div>
            <h1 className="display-1 fw-bold text-center"><span className="text-muted">Our</span> Services</h1>
         </div>
