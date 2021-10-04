@@ -7,12 +7,12 @@ import Img from '../../Img/home-img.png'
 
 const Home = () => {
     return (
-    <div className="row my-5">
+    <div style={{minHeight: "100vh"}} className="row my-5">
         <div className="col-md-3">
             <h1 className="fw-bold text-dark display-4"> <span className="text-danger">Choose</span> <br /> Your Future <br /> Career</h1>
         </div>
         <div className="col-md-6">
-            <img className="img-fluid" src={Img} alt="background-img" />
+            <img  className="img-fluid" src={Img} alt="background-img" />
         </div>
         <div className="col-md-3">
            <div className="fw-bold">

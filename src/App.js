@@ -4,11 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Components/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './Components/About/About';
-import Success from './Components/SuccessStory/success';
+import Success from './Components/OurTeacher/OurTeacher';
 import Services from './Components/Services/Services';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Components/404/NotFound';
 import Header from './Components/Header/Header';
+import OurTeacher from './Components/OurTeacher/OurTeacher';
 
 function App() {
   return (
@@ -28,8 +29,8 @@ function App() {
           <Route path="/services">
            <Services></Services>
           </Route>
-          <Route path="/success">
-           <Success></Success>
+          <Route path="/teacher">
+           <OurTeacher></OurTeacher>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
@@ -37,6 +38,7 @@ function App() {
        </Switch>
        <Footer></Footer>
      </Router>
+     
     </div>
   );
 }

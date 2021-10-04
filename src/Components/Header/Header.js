@@ -34,7 +34,7 @@ const Header = () => {
          color: "red"}} to="/services">Services</NavLink>
         <NavLink style={styles} activeStyle={{
          fontWeight: "bold",
-         color: "red"}} to="/success">Success-Story</NavLink>
+         color: "red"}} to="/teacher">Our Teacher</NavLink>
       </Nav>
       <div>
         <button className="btn bg-danger text-white me-md-3">Log in</button>
